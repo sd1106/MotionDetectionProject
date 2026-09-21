@@ -8,6 +8,8 @@ pyauto.FAILSAFE = False
 bgSubtractor = cv2.createBackgroundSubtractorMOG2()
 kernal = np.ones((5, 5), np.uint8)
 
+cv2.namedWindow('Final Frame', cv2.WINDOW_NORMAL)
+
 onlyOnce = True
 
 while True:
